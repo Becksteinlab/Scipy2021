@@ -21,15 +21,11 @@ HDF5, H5MD, MPI I/O, MDAnalysis, High Performance Computing
 References
 ----------
 
+[Buyl2013] P. Buyl, P. Colberg, and Felix Höfling. "H5MD: A structured, efficient, and portable file format for molecular data," Computer Physics Communications, 185, 2013 doi:10.1016/j.cpc.2014.01.018.
 
-.. [Gowers2016] R. J. Gowers, M. Linke, J. Barnoud, T. J. E. Reddy, M. N. Melo, S. L. Seyler, D. L. Dotson, J. Doman ́ski, S. Buchoux, I. M. Kenney, and O. Beckstein, “MDAnalysis: A Python package for the rapid analysis of molecular dynamics simulations,” in Proceedings of the 15th Python in Science Conference (S. Benthall and S. Rostrup, eds.), (Austin, TX), pp. 98–105, SciPy, 2016.
+[Gowers2016] R. J. Gowers, M. Linke, J. Barnoud, T. J. E. Reddy, M. N. Melo, S. L. Seyler, D. L. Dotson, J. Domański, S. Buchoux, I. M. Kenney, and O. Beckstein, “MDAnalysis: A Python package for the rapid analysis of molecular dynamics simulations,” in Proceedings of the 15th Python in Science Conference (S. Benthall and S. Rostrup, eds.), (Austin, TX), pp. 98–105, SciPy, 2016. doi:10.25080/Majora-629e541a-00e
 
-.. [Khoshlessan2017] M. Khoshlessan, I. Paraskevakos, S. Jha, and O. Beckstein, “Parallel analysis in MDAnalysis using the Dask parallel computing library,” in Proceedings of the 16th Python in Science Conference (Katy Huff, David Lippa, Dillon Niederhut, and M. Pacer, eds.), (Austin, TX), pp. 64–72, SciPy, 2017.
+[Fan2019] S. Fan, M. Linke, I. Paraskevakos, R. J. Gowers, M. Gecht, and O. Beckstein, “PMDA - Parallel Molecular Dynamics Analysis,” in Proceedings of the 18th Python in Science Conference (Chris Calloway, David Lippa, Dillon Niederhut, and David Shupe, eds.), (Austin, TX), pp. 134 – 142, SciPy, 2019. doi:10.25080/Majora-7ddc1dd1-013
 
-.. [Paraskevakos2018] I. Paraskevakos, A. Luckow, M. Khoshlessan, G. Chantzialexiou, T. E. Cheatham, O. Beckstein, G. Fox, and S. Jha, “Task-parallel analysis of molecular dynamics trajectories,” in ICPP 2018: 47th International Conference on Parallel Processing, August 13–16, 2018, Eugene, OR, USA, (New York, NY, USA), p. Article No. 49, Association for Computing Machinery, ACM, August 13–16 2018.
+[Khoshlessan2020] M. Khoshlessan, I. Paraskevakos, G. C. Fox, S. Jha, and O. Beckstein, “Parallel performance of molecular dynamics trajectory analysis,” Concurrency and Computation: Practice and Experience, vol. 32, p. e5789, 2020. doi:10.1002/cpe.5789
 
-.. [Fan2019] S. Fan, M. Linke, I. Paraskevakos, R. J. Gowers, M. Gecht, and O. Beckstein, “PMDA - Parallel Molecular Dynamics Analysis,” in Proceedings of the 18th Python in Science Confer- ence (Chris Calloway, David Lippa, Dillon Niederhut, and David Shupe, eds.), (Austin, TX), pp. 134 – 142, SciPy, 2019.
-
-.. [Khoshlessan2020] M. Khoshlessan, I. Paraskevakos, G. C. Fox, S. Jha, and O. Beckstein, “Parallel performance of molecular dynamics trajectory analysis,” Concurrency and Computation: Practice and Experience, vol. 32, p. e5789, 2020.
-
-.. [Buyl2013] P. Buyl, P. Colberg, and Felix H ̈ofling. "H5MD: A structured, efficient, and portable file format for molecular data," Computer Physics Communications, 185, 2013 10.1016/j.cpc.2014.01.018.
