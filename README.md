@@ -1,4 +1,9 @@
-# Scipy2021
+# Scipy2021: MPI-parallel Molecular Dynamics Trajectory Analysis with the H5MD Format in the MDAnalysis Python Package
+[![DOI](https://zenodo.org/badge/339555913.svg)](https://zenodo.org/badge/latestdoi/339555913)
+
+Data and supplementary information for the paper
+
+* Edis Jakupovic and Oliver Beckstein, “[MPI-parallel Molecular Dynamics Trajectory Analysis with the H5MD Format in the MDAnalysis Python Package](http://conference.scipy.org/proceedings/scipy2021/edis_jakupovic.html),” in Proceedings of the 20th Python in Science Con- ference (Meghann Agarwal, Chris Calloway, Dillon Niederhut, and David Shupe, eds.), pp. 18 – 26, 2021. DOI: To be added.
 
 
 Short Summary
