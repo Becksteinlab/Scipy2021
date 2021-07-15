@@ -1,0 +1,15 @@
++ sbatch --dependency=12488449 /pylon5/mc4sb2p/edisj/Bridges/benchmarks/masked_array_1/scripts/8node224.sh trial_1 2
++ TEST_TOP=/pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system.pdb
++ TEST_TRAJ=/pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system_9ns_center100x.h5md
++ testdir=/pylon5/mc4sb2p/edisj/Bridges/temp/12488449
++ mkdir -p /pylon5/mc4sb2p/edisj/Bridges/temp/12488449
++ cp /pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system.pdb /pylon5/mc4sb2p/edisj/Bridges/temp/12488449
+
+real	0m0.053s
+user	0m0.001s
+sys	0m0.022s
++ cp /pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system_9ns_center100x.h5md /pylon5/mc4sb2p/edisj/Bridges/temp/12488449
+
+real	10m2.576s
+user	0m0.096s
+sys	3m18.045s

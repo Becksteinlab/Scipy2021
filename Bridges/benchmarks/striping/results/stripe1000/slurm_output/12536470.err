@@ -1,0 +1,15 @@
++ sbatch --dependency=12536470 /pylon5/mc4sb2p/edisj/Bridges/benchmarks/striping/scripts/16node448_1000.sh stripe1000 2
++ TEST_TOP=/pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system.pdb
++ TEST_TRAJ=/pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system_9ns_center100x.h5md
++ testdir=/pylon5/mc4sb2p/edisj/Bridges/temp/stripe1000/12536470
++ mkdir -p /pylon5/mc4sb2p/edisj/Bridges/temp/stripe1000/12536470
++ cp /pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system.pdb /pylon5/mc4sb2p/edisj/Bridges/temp/stripe1000/12536470
+
+real	0m0.281s
+user	0m0.000s
+sys	0m0.026s
++ cp /pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system_9ns_center100x.h5md /pylon5/mc4sb2p/edisj/Bridges/temp/stripe1000/12536470
+
+real	18m9.240s
+user	0m0.092s
+sys	5m17.338s

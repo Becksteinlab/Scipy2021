@@ -1,0 +1,28 @@
++ sbatch --dependency=37423825 /oasis/projects/nsf/azs119/edisj/Comet/benchmarks/3-full_node/scripts/2node48.sh trial_2 3
+sbatch: error: bank_limit plugin: The requested time can not exceed the available balance.
+Requested SUs: 97
+Allocation limit group SUs: 15400
+Allocation limit user SUs: 15400
+Allocation used group SUs: 6507
+Allocation used user SUs: 6507
+Allocation available group SUs: 8893
+Allocation available user SUs: 8893
+Allocation running/queued group SUs: 5884
+Allocation running/queued user SUs: 5884
+Allocation completed today group SUs: 3129
+Allocation completed today user SUs: 3129
+sbatch: error: Batch job submission failed: Requested time limit is invalid (missing or exceeds some limit)
++ TEST_TOP=/oasis/scratch/comet/edisj/temp_project/benchmarking/datafiles/YiiP_system.pdb
++ TEST_TRAJ=/oasis/scratch/comet/edisj/temp_project/benchmarking/datafiles/YiiP_system_9ns_center100x.h5md
++ testdir=/oasis/scratch/comet/edisj/temp_project/benchmarking/37423825
++ mkdir -p /oasis/scratch/comet/edisj/temp_project/benchmarking/37423825
++ cp /oasis/scratch/comet/edisj/temp_project/benchmarking/datafiles/YiiP_system.pdb /oasis/scratch/comet/edisj/temp_project/benchmarking/37423825
+
+real	0m0.022s
+user	0m0.000s
+sys	0m0.015s
++ cp /oasis/scratch/comet/edisj/temp_project/benchmarking/datafiles/YiiP_system_9ns_center100x.h5md /oasis/scratch/comet/edisj/temp_project/benchmarking/37423825
+
+real	86m49.730s
+user	0m0.060s
+sys	2m15.748s

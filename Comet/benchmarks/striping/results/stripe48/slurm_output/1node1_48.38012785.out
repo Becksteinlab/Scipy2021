@@ -1,0 +1,1 @@
+Your job geometry appears to suggest that you want 24 threads per MPI rank, but your OMP_NUM_THREADS is 1.  This will cause thread binding to be disabled.

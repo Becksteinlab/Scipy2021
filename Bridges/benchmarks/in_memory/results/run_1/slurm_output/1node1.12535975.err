@@ -1,0 +1,154 @@
++ module load anaconda3/5.2.0
+++ /usr/bin/modulecmd bash load anaconda3/5.2.0
++ eval ANACONDA_HOME=/opt/packages/anaconda/anaconda3-5.2.0 ';export' 'ANACONDA_HOME;JUPYTER_RUNTIME_DIR=~/jupyter_runtime_dir' ';export' 'JUPYTER_RUNTIME_DIR;LOADEDMODULES=psc_path/1.1:slurm/default:intel/20.4:xdusage/2.1-1:anaconda3/5.2.0' ';export' 'LOADEDMODULES;PATH=/opt/packages/anaconda/anaconda3-5.2.0/bin:/usr/lib64/qt-3.3/bin:/opt/packages/xdusage/2.1-1/bin:/opt/intel/advisor_2020.3.0.607294/bin64:/opt/intel/vtune_amplifier_2019.6.0.602217/bin64:/opt/intel/inspector_2020.3.0.604771/bin64:/opt/intel/itac/2020.3.036/intel64/bin:/opt/intel/clck/2019.5/bin/intel64:/opt/intel/compilers_and_libraries_2020.4.304/linux/bin/intel64:/opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/bin:/opt/intel/debugger_2020/gdb/intel64/bin:/opt/packages/slurm/default/bin:/opt/packages/allocations:/opt/packages/interact/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/puppet/bin:/opt/intel/parallel_studio_xe_2020.4.912/bin:/bin:/sbin:/opt/puppetlabs/bin:/home/edisj/.local/bin:/home/edisj/bin' ';export' 'PATH;PYTHON_HOME=/opt/packages/anaconda/anaconda3-5.2.0' ';export' 'PYTHON_HOME;PYTHON_ROOT=/opt/packages/anaconda/anaconda3-5.2.0' ';export' 'PYTHON_ROOT;_LMFILES_=/opt/modulefiles/psc_path/1.1:/opt/modulefiles/slurm/default:/opt/modulefiles/intel/20.4:/opt/modulefiles/xdusage/2.1-1:/opt/modulefiles/anaconda3/5.2.0' ';export' '_LMFILES_;'
+++ ANACONDA_HOME=/opt/packages/anaconda/anaconda3-5.2.0
+++ export ANACONDA_HOME
+++ JUPYTER_RUNTIME_DIR=/home/edisj/jupyter_runtime_dir
+++ export JUPYTER_RUNTIME_DIR
+++ LOADEDMODULES=psc_path/1.1:slurm/default:intel/20.4:xdusage/2.1-1:anaconda3/5.2.0
+++ export LOADEDMODULES
+++ PATH=/opt/packages/anaconda/anaconda3-5.2.0/bin:/usr/lib64/qt-3.3/bin:/opt/packages/xdusage/2.1-1/bin:/opt/intel/advisor_2020.3.0.607294/bin64:/opt/intel/vtune_amplifier_2019.6.0.602217/bin64:/opt/intel/inspector_2020.3.0.604771/bin64:/opt/intel/itac/2020.3.036/intel64/bin:/opt/intel/clck/2019.5/bin/intel64:/opt/intel/compilers_and_libraries_2020.4.304/linux/bin/intel64:/opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/bin:/opt/intel/debugger_2020/gdb/intel64/bin:/opt/packages/slurm/default/bin:/opt/packages/allocations:/opt/packages/interact/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/puppet/bin:/opt/intel/parallel_studio_xe_2020.4.912/bin:/bin:/sbin:/opt/puppetlabs/bin:/home/edisj/.local/bin:/home/edisj/bin
+++ export PATH
+++ PYTHON_HOME=/opt/packages/anaconda/anaconda3-5.2.0
+++ export PYTHON_HOME
+++ PYTHON_ROOT=/opt/packages/anaconda/anaconda3-5.2.0
+++ export PYTHON_ROOT
+++ _LMFILES_=/opt/modulefiles/psc_path/1.1:/opt/modulefiles/slurm/default:/opt/modulefiles/intel/20.4:/opt/modulefiles/xdusage/2.1-1:/opt/modulefiles/anaconda3/5.2.0
+++ export _LMFILES_
++ module load phdf5/1.10.2_gnu_openmpi
+++ /usr/bin/modulecmd bash load phdf5/1.10.2_gnu_openmpi
++ eval CPATH=/opt/packages/phdf5/gnu_openmpi/1.10.2/include ';export' 'CPATH;HDF5_DIR=/opt/packages/phdf5/gnu_openmpi/1.10.2' ';export' 'HDF5_DIR;HDF5_HOME=/opt/packages/phdf5/gnu_openmpi/1.10.2' ';export' 'HDF5_HOME;HDF5_ROOT=/opt/packages/phdf5/gnu_openmpi/1.10.2' ';export' 'HDF5_ROOT;LD_LIBRARY_PATH=/opt/packages/phdf5/gnu_openmpi/1.10.2/lib:/usr/mpi/gcc/openmpi-2.1.2-hfi/lib64' ';export' 'LD_LIBRARY_PATH;LIBRARY_PATH=/opt/packages/phdf5/gnu_openmpi/1.10.2/lib' ';export' 'LIBRARY_PATH;LOADEDMODULES=psc_path/1.1:slurm/default:xdusage/2.1-1:anaconda3/5.2.0:mpi/gcc_openmpi:phdf5/1.10.2_gnu_openmpi' ';export' 'LOADEDMODULES;MANPATH=/usr/mpi/gcc/openmpi-2.1.2-hfi/share/man:/opt/packages/xdusage/2.1-1/share/man:/opt/packages/slurm/default/share/man:/usr/local/man:/usr/share/man' ';export' 'MANPATH;MPI_ROOT=/usr/mpi/gcc/openmpi-2.1.2-hfi' ';export' 'MPI_ROOT;PATH=/opt/packages/phdf5/gnu_openmpi/1.10.2/bin:/usr/mpi/gcc/openmpi-2.1.2-hfi/bin:/opt/packages/anaconda/anaconda3-5.2.0/bin:/usr/lib64/qt-3.3/bin:/opt/packages/xdusage/2.1-1/bin:/opt/packages/slurm/default/bin:/opt/packages/allocations:/opt/packages/interact/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/puppet/bin:/bin:/sbin:/opt/puppetlabs/bin:/home/edisj/.local/bin:/home/edisj/bin' ';export' 'PATH;PHDF5_DIR=/opt/packages/phdf5/gnu_openmpi/1.10.2' ';export' 'PHDF5_DIR;PHDF5_HOME=/opt/packages/phdf5/gnu_openmpi/1.10.2' ';export' 'PHDF5_HOME;PHDF5_ROOT=/opt/packages/phdf5/gnu_openmpi/1.10.2' ';export' 'PHDF5_ROOT;PHDF5_VERSION=1.10.2' ';export' 'PHDF5_VERSION;_LMFILES_=/opt/modulefiles/psc_path/1.1:/opt/modulefiles/slurm/default:/opt/modulefiles/xdusage/2.1-1:/opt/modulefiles/anaconda3/5.2.0:/opt/modulefiles/mpi/gcc_openmpi:/opt/modulefiles/phdf5/1.10.2_gnu_openmpi' ';export' '_LMFILES_;unset' 'CLASSPATH;unset' 'CPLUS_INCLUDE_PATH;unset' 'DAALROOT;unset' 'FI_PROVIDER_PATH;unset' 'INFOPATH;unset' 'INTEL_LICENSE_FILE;unset' 'IPPROOT;unset' 'I_MPI_ROOT;unset' 'MKLROOT;unset' 'NLSPATH;unset' 'PKG_CONFIG_PATH;unset' 'PSTLROOT;unset' 'TBBROOT;unset' 'VT_ADD_LIBS;unset' 'VT_ARCH;unset' 'VT_MPI;'
+++ CPATH=/opt/packages/phdf5/gnu_openmpi/1.10.2/include
+++ export CPATH
+++ HDF5_DIR=/opt/packages/phdf5/gnu_openmpi/1.10.2
+++ export HDF5_DIR
+++ HDF5_HOME=/opt/packages/phdf5/gnu_openmpi/1.10.2
+++ export HDF5_HOME
+++ HDF5_ROOT=/opt/packages/phdf5/gnu_openmpi/1.10.2
+++ export HDF5_ROOT
+++ LD_LIBRARY_PATH=/opt/packages/phdf5/gnu_openmpi/1.10.2/lib:/usr/mpi/gcc/openmpi-2.1.2-hfi/lib64
+++ export LD_LIBRARY_PATH
+++ LIBRARY_PATH=/opt/packages/phdf5/gnu_openmpi/1.10.2/lib
+++ export LIBRARY_PATH
+++ LOADEDMODULES=psc_path/1.1:slurm/default:xdusage/2.1-1:anaconda3/5.2.0:mpi/gcc_openmpi:phdf5/1.10.2_gnu_openmpi
+++ export LOADEDMODULES
+++ MANPATH=/usr/mpi/gcc/openmpi-2.1.2-hfi/share/man:/opt/packages/xdusage/2.1-1/share/man:/opt/packages/slurm/default/share/man:/usr/local/man:/usr/share/man
+++ export MANPATH
+++ MPI_ROOT=/usr/mpi/gcc/openmpi-2.1.2-hfi
+++ export MPI_ROOT
+++ PATH=/opt/packages/phdf5/gnu_openmpi/1.10.2/bin:/usr/mpi/gcc/openmpi-2.1.2-hfi/bin:/opt/packages/anaconda/anaconda3-5.2.0/bin:/usr/lib64/qt-3.3/bin:/opt/packages/xdusage/2.1-1/bin:/opt/packages/slurm/default/bin:/opt/packages/allocations:/opt/packages/interact/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/puppet/bin:/bin:/sbin:/opt/puppetlabs/bin:/home/edisj/.local/bin:/home/edisj/bin
+++ export PATH
+++ PHDF5_DIR=/opt/packages/phdf5/gnu_openmpi/1.10.2
+++ export PHDF5_DIR
+++ PHDF5_HOME=/opt/packages/phdf5/gnu_openmpi/1.10.2
+++ export PHDF5_HOME
+++ PHDF5_ROOT=/opt/packages/phdf5/gnu_openmpi/1.10.2
+++ export PHDF5_ROOT
+++ PHDF5_VERSION=1.10.2
+++ export PHDF5_VERSION
+++ _LMFILES_=/opt/modulefiles/psc_path/1.1:/opt/modulefiles/slurm/default:/opt/modulefiles/xdusage/2.1-1:/opt/modulefiles/anaconda3/5.2.0:/opt/modulefiles/mpi/gcc_openmpi:/opt/modulefiles/phdf5/1.10.2_gnu_openmpi
+++ export _LMFILES_
+++ unset CLASSPATH
+++ unset CPLUS_INCLUDE_PATH
+++ unset DAALROOT
+++ unset FI_PROVIDER_PATH
+++ unset INFOPATH
+++ unset INTEL_LICENSE_FILE
+++ unset IPPROOT
+++ unset I_MPI_ROOT
+++ unset MKLROOT
+++ unset NLSPATH
+++ unset PKG_CONFIG_PATH
+++ unset PSTLROOT
+++ unset TBBROOT
+++ unset VT_ADD_LIBS
+++ unset VT_ARCH
+++ unset VT_MPI
++ source activate MDA
+++ _CONDA_ROOT=/opt/packages/anaconda/anaconda3-5.2.0
+++ . /opt/packages/anaconda/anaconda3-5.2.0/etc/profile.d/conda.sh
++++ _CONDA_EXE=/opt/packages/anaconda/anaconda3-5.2.0/bin/conda
++++ _CONDA_ROOT=/opt/packages/anaconda/anaconda3-5.2.0
++++ _conda_set_vars
++++ '[' -n x ']'
++++ _CONDA_SHELL_FLAVOR=bash
++++ '[' -z x ']'
++++ '[' -z '' ']'
++++ PS1=
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
+++ _conda_activate MDA
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ /opt/packages/anaconda/anaconda3-5.2.0/bin/conda shell.posix activate MDA
+++ ask_conda='PS1='\''(MDA) '\''
+\export CONDA_DEFAULT_ENV='\''MDA'\''
+\export CONDA_EXE='\''/opt/packages/anaconda/anaconda3-5.2.0/bin/conda'\''
+\export CONDA_PREFIX='\''/home/edisj/.conda/envs/MDA'\''
+\export CONDA_PROMPT_MODIFIER='\''(MDA) '\''
+\export CONDA_PYTHON_EXE='\''/opt/packages/anaconda/anaconda3-5.2.0/bin/python'\''
+\export CONDA_SHLVL='\''1'\''
+\export PATH='\''/home/edisj/.conda/envs/MDA/bin:/opt/packages/phdf5/gnu_openmpi/1.10.2/bin:/usr/mpi/gcc/openmpi-2.1.2-hfi/bin:/opt/packages/anaconda/anaconda3-5.2.0/bin:/usr/lib64/qt-3.3/bin:/opt/packages/xdusage/2.1-1/bin:/opt/packages/slurm/default/bin:/opt/packages/allocations:/opt/packages/interact/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/puppet/bin:/bin:/sbin:/opt/puppetlabs/bin:/home/edisj/.local/bin:/home/edisj/bin'\'''
+++ eval 'PS1='\''(MDA) '\''
+\export CONDA_DEFAULT_ENV='\''MDA'\''
+\export CONDA_EXE='\''/opt/packages/anaconda/anaconda3-5.2.0/bin/conda'\''
+\export CONDA_PREFIX='\''/home/edisj/.conda/envs/MDA'\''
+\export CONDA_PROMPT_MODIFIER='\''(MDA) '\''
+\export CONDA_PYTHON_EXE='\''/opt/packages/anaconda/anaconda3-5.2.0/bin/python'\''
+\export CONDA_SHLVL='\''1'\''
+\export PATH='\''/home/edisj/.conda/envs/MDA/bin:/opt/packages/phdf5/gnu_openmpi/1.10.2/bin:/usr/mpi/gcc/openmpi-2.1.2-hfi/bin:/opt/packages/anaconda/anaconda3-5.2.0/bin:/usr/lib64/qt-3.3/bin:/opt/packages/xdusage/2.1-1/bin:/opt/packages/slurm/default/bin:/opt/packages/allocations:/opt/packages/interact/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/puppet/bin:/bin:/sbin:/opt/puppetlabs/bin:/home/edisj/.local/bin:/home/edisj/bin'\'''
++++ PS1='(MDA) '
++++ export CONDA_DEFAULT_ENV=MDA
++++ CONDA_DEFAULT_ENV=MDA
++++ export CONDA_EXE=/opt/packages/anaconda/anaconda3-5.2.0/bin/conda
++++ CONDA_EXE=/opt/packages/anaconda/anaconda3-5.2.0/bin/conda
++++ export CONDA_PREFIX=/home/edisj/.conda/envs/MDA
++++ CONDA_PREFIX=/home/edisj/.conda/envs/MDA
++++ export 'CONDA_PROMPT_MODIFIER=(MDA) '
++++ CONDA_PROMPT_MODIFIER='(MDA) '
++++ export CONDA_PYTHON_EXE=/opt/packages/anaconda/anaconda3-5.2.0/bin/python
++++ CONDA_PYTHON_EXE=/opt/packages/anaconda/anaconda3-5.2.0/bin/python
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export PATH=/home/edisj/.conda/envs/MDA/bin:/opt/packages/phdf5/gnu_openmpi/1.10.2/bin:/usr/mpi/gcc/openmpi-2.1.2-hfi/bin:/opt/packages/anaconda/anaconda3-5.2.0/bin:/usr/lib64/qt-3.3/bin:/opt/packages/xdusage/2.1-1/bin:/opt/packages/slurm/default/bin:/opt/packages/allocations:/opt/packages/interact/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/puppet/bin:/bin:/sbin:/opt/puppetlabs/bin:/home/edisj/.local/bin:/home/edisj/bin
++++ PATH=/home/edisj/.conda/envs/MDA/bin:/opt/packages/phdf5/gnu_openmpi/1.10.2/bin:/usr/mpi/gcc/openmpi-2.1.2-hfi/bin:/opt/packages/anaconda/anaconda3-5.2.0/bin:/usr/lib64/qt-3.3/bin:/opt/packages/xdusage/2.1-1/bin:/opt/packages/slurm/default/bin:/opt/packages/allocations:/opt/packages/interact/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/puppet/bin:/bin:/sbin:/opt/puppetlabs/bin:/home/edisj/.local/bin:/home/edisj/bin
+++ _conda_hashr
+++ case "$_CONDA_SHELL_FLAVOR" in
+++ hash -r
++ testdir=/pylon5/mc4sb2p/edisj/Bridges/temp/12535939
++ export OMP_NUM_THREADS=1
++ OMP_NUM_THREADS=1
++ mpiexec -n 1 python -W ignore /pylon5/mc4sb2p/edisj/Bridges/benchmarks/in_memory_2/scripts/benchmark.py /pylon5/mc4sb2p/edisj/Bridges/temp/12535939/YiiP_system.pdb /pylon5/mc4sb2p/edisj/Bridges/temp/12535939/YiiP_system_9ns_center100x.h5md no_copy/1node_1
+Traceback (most recent call last):
+  File "/pylon5/mc4sb2p/edisj/Bridges/benchmarks/in_memory_2/scripts/benchmark.py", line 208, in <module>
+    times_array, rmsd_array = benchmark(topology, trajectory)
+  File "/pylon5/mc4sb2p/edisj/Bridges/benchmarks/in_memory_2/scripts/benchmark.py", line 29, in benchmark
+    u.load_new(trajectory, driver="mpio", comm=comm)
+  File "/home/edisj/mdanalysis/package/MDAnalysis/core/universe.py", line 546, in load_new
+    self.trajectory = reader(filename, format=format, **kwargs)
+  File "/home/edisj/mdanalysis/package/MDAnalysis/coordinates/H5MD.py", line 435, in __init__
+    self.open_trajectory()
+  File "/home/edisj/mdanalysis/package/MDAnalysis/coordinates/H5MD.py", line 576, in open_trajectory
+    self._file = H5PYPicklable(name=self.filename,  # pragma: no cover
+  File "/home/edisj/.conda/envs/MDA/lib/python3.8/site-packages/h5py/_hl/files.py", line 424, in __init__
+    fid = make_fid(name, mode, userblock_size,
+  File "/home/edisj/.conda/envs/MDA/lib/python3.8/site-packages/h5py/_hl/files.py", line 190, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 96, in h5py.h5f.open
+OSError: Unable to open file (truncated file: eof = 55012491264, sblock->base_addr = 0, stored_eof = 121040684832)
+Exception ignored in: <function ReaderBase.__del__ at 0x7f863e8bc430>
+Traceback (most recent call last):
+  File "/home/edisj/mdanalysis/package/MDAnalysis/coordinates/base.py", line 2161, in __del__
+    self.close()
+  File "/home/edisj/mdanalysis/package/MDAnalysis/coordinates/H5MD.py", line 718, in close
+    self._file.close()
+AttributeError: 'H5MDReader' object has no attribute '_file'
+
+real	0m11.294s
+user	0m1.904s
+sys	0m0.461s
++ rm -r /pylon5/mc4sb2p/edisj/Bridges/temp/12535939

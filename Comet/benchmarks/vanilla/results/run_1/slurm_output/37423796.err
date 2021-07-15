@@ -1,0 +1,15 @@
++ sbatch --dependency=37423796 /oasis/projects/nsf/azs119/edisj/Comet/benchmarks/3-full_node/scripts/6node144.sh trial_2 1
++ TEST_TOP=/oasis/scratch/comet/edisj/temp_project/benchmarking/datafiles/YiiP_system.pdb
++ TEST_TRAJ=/oasis/scratch/comet/edisj/temp_project/benchmarking/datafiles/YiiP_system_9ns_center100x.h5md
++ testdir=/oasis/scratch/comet/edisj/temp_project/benchmarking/37423796
++ mkdir -p /oasis/scratch/comet/edisj/temp_project/benchmarking/37423796
++ cp /oasis/scratch/comet/edisj/temp_project/benchmarking/datafiles/YiiP_system.pdb /oasis/scratch/comet/edisj/temp_project/benchmarking/37423796
+
+real	0m0.024s
+user	0m0.002s
+sys	0m0.013s
++ cp /oasis/scratch/comet/edisj/temp_project/benchmarking/datafiles/YiiP_system_9ns_center100x.h5md /oasis/scratch/comet/edisj/temp_project/benchmarking/37423796
+
+real	98m15.330s
+user	0m0.049s
+sys	2m11.910s

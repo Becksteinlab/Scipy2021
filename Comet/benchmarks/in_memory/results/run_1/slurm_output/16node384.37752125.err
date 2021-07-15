@@ -1,0 +1,132 @@
++ module unload mvapich2_ib/2.3.2
+++ /usr/bin/modulecmd bash unload mvapich2_ib/2.3.2
++ eval LD_LIBRARY_PATH=/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/../compiler/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4 ';export' 'LD_LIBRARY_PATH;LOADEDMODULES=intel/2018.1.163' ';export' 'LOADEDMODULES;PATH=/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin' ';export' 'PATH;_LMFILES_=/opt/modulefiles/compilers/intel/2018.1.163' ';export' '_LMFILES_;unset' 'MPIHOME;'
+++ LD_LIBRARY_PATH=/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/../compiler/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4
+++ export LD_LIBRARY_PATH
+++ LOADEDMODULES=intel/2018.1.163
+++ export LOADEDMODULES
+++ PATH=/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin
+++ export PATH
+++ _LMFILES_=/opt/modulefiles/compilers/intel/2018.1.163
+++ export _LMFILES_
+++ unset MPIHOME
++ module load openmpi_ib/3.1.4
+++ /usr/bin/modulecmd bash load openmpi_ib/3.1.4
++ eval LD_LIBRARY_PATH=/opt/openmpi/intel/ib/lib:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/../compiler/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4 ';export' 'LD_LIBRARY_PATH;LOADEDMODULES=intel/2018.1.163:openmpi_ib/3.1.4' ';export' 'LOADEDMODULES;MPIHOME=/opt/openmpi/intel/ib' ';export' 'MPIHOME;OMPI_MCA_mpi_cuda_support=0' ';export' 'OMPI_MCA_mpi_cuda_support;PATH=/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin' ';export' 'PATH;_LMFILES_=/opt/modulefiles/compilers/intel/2018.1.163:/opt/modulefiles/mpi/openmpi_ib/3.1.4' ';export' '_LMFILES_;'
+++ LD_LIBRARY_PATH=/opt/openmpi/intel/ib/lib:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/../compiler/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4
+++ export LD_LIBRARY_PATH
+++ LOADEDMODULES=intel/2018.1.163:openmpi_ib/3.1.4
+++ export LOADEDMODULES
+++ MPIHOME=/opt/openmpi/intel/ib
+++ export MPIHOME
+++ OMPI_MCA_mpi_cuda_support=0
+++ export OMPI_MCA_mpi_cuda_support
+++ PATH=/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin
+++ export PATH
+++ _LMFILES_=/opt/modulefiles/compilers/intel/2018.1.163:/opt/modulefiles/mpi/openmpi_ib/3.1.4
+++ export _LMFILES_
++ module load hdf5/1.10.3
+++ /usr/bin/modulecmd bash load hdf5/1.10.3
++ eval HDF5HOME=/opt/hdf5/1.10.3/intel/openmpi_ib ';export' 'HDF5HOME;LD_LIBRARY_PATH=/opt/hdf5/1.10.3/intel/openmpi_ib/lib:/opt/openmpi/intel/ib/lib:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/../compiler/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4' ';export' 'LD_LIBRARY_PATH;LIBPATH=/opt/hdf5/1.10.3/intel/openmpi_ib/lib' ';export' 'LIBPATH;LOADEDMODULES=intel/2018.1.163:openmpi_ib/3.1.4:hdf5/1.10.3' ';export' 'LOADEDMODULES;PATH=/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin' ';export' 'PATH;_LMFILES_=/opt/modulefiles/compilers/intel/2018.1.163:/opt/modulefiles/mpi/openmpi_ib/3.1.4:/opt/modulefiles/applications/hdf5/1.10.3' ';export' '_LMFILES_;'
+++ HDF5HOME=/opt/hdf5/1.10.3/intel/openmpi_ib
+++ export HDF5HOME
+++ LD_LIBRARY_PATH=/opt/hdf5/1.10.3/intel/openmpi_ib/lib:/opt/openmpi/intel/ib/lib:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/../compiler/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4
+++ export LD_LIBRARY_PATH
+++ LIBPATH=/opt/hdf5/1.10.3/intel/openmpi_ib/lib
+++ export LIBPATH
+++ LOADEDMODULES=intel/2018.1.163:openmpi_ib/3.1.4:hdf5/1.10.3
+++ export LOADEDMODULES
+++ PATH=/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin
+++ export PATH
+++ _LMFILES_=/opt/modulefiles/compilers/intel/2018.1.163:/opt/modulefiles/mpi/openmpi_ib/3.1.4:/opt/modulefiles/applications/hdf5/1.10.3
+++ export _LMFILES_
++ source activate mda8
+++ _CONDA_ROOT=/home/edisj/anaconda3
+++ . /home/edisj/anaconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/home/edisj/anaconda3/bin/conda
++++ CONDA_EXE=/home/edisj/anaconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/home/edisj/anaconda3/bin/python
++++ CONDA_PYTHON_EXE=/home/edisj/anaconda3/bin/python
++++ '[' -z x ']'
+++ conda activate mda8
+++ '[' 2 -lt 1 ']'
+++ local cmd=activate
+++ shift
+++ case "$cmd" in
+++ __conda_activate activate mda8
+++ '[' -n '' ']'
+++ local cmd=activate
+++ shift
+++ local ask_conda
+++ CONDA_INTERNAL_OLDPATH=/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin
+++ __add_sys_prefix_to_path
+++ '[' -n '' ']'
++++ dirname /home/edisj/anaconda3/bin/conda
+++ SYSP=/home/edisj/anaconda3/bin
++++ dirname /home/edisj/anaconda3/bin
+++ SYSP=/home/edisj/anaconda3
+++ '[' -n '' ']'
+++ PATH=/home/edisj/anaconda3/bin:/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin
+++ export PATH
++++ PS1=
++++ /home/edisj/anaconda3/bin/conda shell.posix activate mda8
+++ ask_conda='PS1='\''(mda8) '\''
+export PATH='\''/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/envs/mda8/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin'\''
+export CONDA_PREFIX='\''/home/edisj/anaconda3/envs/mda8'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''mda8'\''
+export CONDA_PROMPT_MODIFIER='\''(mda8) '\''
+export CONDA_EXE='\''/home/edisj/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/home/edisj/anaconda3/bin/python'\''
+export CONDA_PREFIX_1='\''/home/edisj/anaconda3'\'''
+++ rc=0
+++ PATH=/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin
+++ eval 'PS1='\''(mda8) '\''
+export PATH='\''/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/envs/mda8/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin'\''
+export CONDA_PREFIX='\''/home/edisj/anaconda3/envs/mda8'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''mda8'\''
+export CONDA_PROMPT_MODIFIER='\''(mda8) '\''
+export CONDA_EXE='\''/home/edisj/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/home/edisj/anaconda3/bin/python'\''
+export CONDA_PREFIX_1='\''/home/edisj/anaconda3'\'''
++++ PS1='(mda8) '
++++ export PATH=/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/envs/mda8/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin
++++ PATH=/opt/hdf5/1.10.3/intel/openmpi_ib/bin:/opt/openmpi/intel/ib/bin:/home/edisj/anaconda3/envs/mda8/bin:/home/edisj/anaconda3/condabin:/opt/intel/2018.1.163/compilers_and_libraries_2018.1.163/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/opt/ibutils/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/home/edisj/bin
++++ export CONDA_PREFIX=/home/edisj/anaconda3/envs/mda8
++++ CONDA_PREFIX=/home/edisj/anaconda3/envs/mda8
++++ export CONDA_SHLVL=2
++++ CONDA_SHLVL=2
++++ export CONDA_DEFAULT_ENV=mda8
++++ CONDA_DEFAULT_ENV=mda8
++++ export 'CONDA_PROMPT_MODIFIER=(mda8) '
++++ CONDA_PROMPT_MODIFIER='(mda8) '
++++ export CONDA_EXE=/home/edisj/anaconda3/bin/conda
++++ CONDA_EXE=/home/edisj/anaconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/home/edisj/anaconda3/bin/python
++++ CONDA_PYTHON_EXE=/home/edisj/anaconda3/bin/python
++++ export CONDA_PREFIX_1=/home/edisj/anaconda3
++++ CONDA_PREFIX_1=/home/edisj/anaconda3
+++ '[' 0 '!=' 0 ']'
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ testdir=/oasis/scratch/comet/edisj/temp_project/benchmarking/37751585
++ export OMP_NUM_THREADS=1
++ OMP_NUM_THREADS=1
++ ibrun -np 384 python -W ignore /oasis/projects/nsf/azs119/edisj/Comet/benchmarks/in_memory_1/scripts/benchmark.py /oasis/scratch/comet/edisj/temp_project/benchmarking/37751585/YiiP_system.pdb /oasis/scratch/comet/edisj/temp_project/benchmarking/37751585/YiiP_system_9ns_center100x.h5md no_copy/16node_2
+slurmstepd: *** JOB 37752125 ON comet-12-04 CANCELLED AT 2021-01-13T12:49:55 DUE TO TIME LIMIT ***
+orterun: Forwarding signal 18 to job

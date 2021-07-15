@@ -1,0 +1,15 @@
++ sbatch --dependency=12535954 /pylon5/mc4sb2p/edisj/Bridges/benchmarks/in_memory_2/scripts/4node112.sh no_copy 3
++ TEST_TOP=/pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system.pdb
++ TEST_TRAJ=/pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system_9ns_center100x.h5md
++ testdir=/pylon5/mc4sb2p/edisj/Bridges/temp/12535954
++ mkdir -p /pylon5/mc4sb2p/edisj/Bridges/temp/12535954
++ cp /pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system.pdb /pylon5/mc4sb2p/edisj/Bridges/temp/12535954
+
+real	0m0.035s
+user	0m0.001s
+sys	0m0.019s
++ cp /pylon5/mc4sb2p/edisj/Bridges/datafiles/YiiP_system_9ns_center100x.h5md /pylon5/mc4sb2p/edisj/Bridges/temp/12535954
+
+real	6m50.306s
+user	0m0.065s
+sys	2m54.831s

@@ -1,0 +1,2 @@
+repeat,t_init,t_init_top,t_init_traj,t_io,t_io/frame,t_rmsd,t_rmsd/frame,t_close_traj,total_time
+4,16.73149276,16.29815221,0.428994417,4467.52928,0.049584121,13.94034195,0.000154721,0.000682592,4498.201797
